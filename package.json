@@ -1,0 +1,19 @@
+{
+  "name": "web-test",
+  "version": "0.0.0",
+  "description": "web test",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "homepage": "https://myusername.github.io/web-test",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
